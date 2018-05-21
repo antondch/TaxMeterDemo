@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5F27606520B337CE001C122D /* SignUpPhoneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27606420B337CE001C122D /* SignUpPhoneInteractor.swift */; };
-		5F27607A20B35875001C122D /* TaxMeterDemoFWK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F27607820B35875001C122D /* TaxMeterDemoFWK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F2760A020B38045001C122D /* CheckPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609920B38044001C122D /* CheckPhone.swift */; };
 		5F2760A120B38045001C122D /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609A20B38044001C122D /* UserResponse.swift */; };
 		5F2760A220B38045001C122D /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609B20B38044001C122D /* APIRequest.swift */; };
@@ -43,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		5F27606420B337CE001C122D /* SignUpPhoneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhoneInteractor.swift; sourceTree = "<group>"; };
-		5F27607620B35875001C122D /* TaxMeterDemoFWK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TaxMeterDemoFWK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F27607820B35875001C122D /* TaxMeterDemoFWK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaxMeterDemoFWK.h; sourceTree = "<group>"; };
 		5F27607920B35875001C122D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F27609920B38044001C122D /* CheckPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckPhone.swift; sourceTree = "<group>"; };
@@ -73,13 +71,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F27607220B35875001C122D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F863F1720AF669000BB1E9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,7 +158,6 @@
 			children = (
 				5F863F1A20AF669000BB1E9E /* TaxMeterDemo.app */,
 				5F863F2E20AF669000BB1E9E /* TaxMeterDemoTests.xctest */,
-				5F27607620B35875001C122D /* TaxMeterDemoFWK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,36 +299,7 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		5F27607320B35875001C122D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F27607A20B35875001C122D /* TaxMeterDemoFWK.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		5F27607520B35875001C122D /* TaxMeterDemoFWK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F27607D20B35875001C122D /* Build configuration list for PBXNativeTarget "TaxMeterDemoFWK" */;
-			buildPhases = (
-				5F27607120B35875001C122D /* Sources */,
-				5F27607220B35875001C122D /* Frameworks */,
-				5F27607320B35875001C122D /* Headers */,
-				5F27607420B35875001C122D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TaxMeterDemoFWK;
-			productName = TaxMeterDemoFWK;
-			productReference = 5F27607620B35875001C122D /* TaxMeterDemoFWK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5F863F1920AF669000BB1E9E /* TaxMeterDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F863F3720AF669000BB1E9E /* Build configuration list for PBXNativeTarget "TaxMeterDemo" */;
@@ -384,10 +345,6 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = dch;
 				TargetAttributes = {
-					5F27607520B35875001C122D = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-					};
 					5F863F1920AF669000BB1E9E = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -413,19 +370,11 @@
 			targets = (
 				5F863F1920AF669000BB1E9E /* TaxMeterDemo */,
 				5F863F2D20AF669000BB1E9E /* TaxMeterDemoTests */,
-				5F27607520B35875001C122D /* TaxMeterDemoFWK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F27607420B35875001C122D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F863F1820AF669000BB1E9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,13 +394,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F27607120B35875001C122D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F863F1620AF669000BB1E9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,54 +438,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5F27607B20B35875001C122D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = C982X5N552;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TaxMeterDemoFWK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dch.TaxMeterDemoFWK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5F27607C20B35875001C122D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = C982X5N552;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TaxMeterDemoFWK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dch.TaxMeterDemoFWK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5F863F3520AF669000BB1E9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -718,15 +612,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F27607D20B35875001C122D /* Build configuration list for PBXNativeTarget "TaxMeterDemoFWK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F27607B20B35875001C122D /* Debug */,
-				5F27607C20B35875001C122D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5F863F1520AF669000BB1E9E /* Build configuration list for PBXProject "TaxMeterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
