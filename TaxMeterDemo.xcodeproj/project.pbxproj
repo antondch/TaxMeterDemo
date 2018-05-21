@@ -12,7 +12,7 @@
 		5F863F3320AF669000BB1E9E /* TaxMeterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */; };
 		5F863F4220AF7C0900BB1E9E /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4120AF7C0900BB1E9E /* RootRouter.swift */; };
 		5F863F4620AF881500BB1E9E /* SignUpPhoneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4520AF881500BB1E9E /* SignUpPhoneRouter.swift */; };
-		5F863F4A20AF89A800BB1E9E /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F4920AF89A800BB1E9E /* Auth.storyboard */; };
+		5F863F4A20AF89A800BB1E9E /* signUpPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F4920AF89A800BB1E9E /* signUpPhone.storyboard */; };
 		5F863F4E20AF9AD600BB1E9E /* SignUpPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4D20AF9AD600BB1E9E /* SignUpPhoneViewController.swift */; };
 		5FD5468B20B2F7200071D52F /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5468A20B2F7200071D52F /* RootContract.swift */; };
 		5FD5468E20B2F8490071D52F /* SignUpPhoneContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5468D20B2F8490071D52F /* SignUpPhoneContract.swift */; };
@@ -42,7 +42,7 @@
 		5F863F3420AF669000BB1E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F863F4120AF7C0900BB1E9E /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		5F863F4520AF881500BB1E9E /* SignUpPhoneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhoneRouter.swift; sourceTree = "<group>"; };
-		5F863F4920AF89A800BB1E9E /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		5F863F4920AF89A800BB1E9E /* signUpPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signUpPhone.storyboard; sourceTree = "<group>"; };
 		5F863F4D20AF9AD600BB1E9E /* SignUpPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhoneViewController.swift; sourceTree = "<group>"; };
 		5FD5468A20B2F7200071D52F /* RootContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
 		5FD5468D20B2F8490071D52F /* SignUpPhoneContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhoneContract.swift; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		5F863F4C20AF9AB200BB1E9E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5F863F4920AF89A800BB1E9E /* Auth.storyboard */,
+				5F863F4920AF89A800BB1E9E /* signUpPhone.storyboard */,
 				5F863F4D20AF9AD600BB1E9E /* SignUpPhoneViewController.swift */,
 			);
 			path = View;
@@ -303,7 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F863F4A20AF89A800BB1E9E /* Auth.storyboard in Resources */,
+				5F863F4A20AF89A800BB1E9E /* signUpPhone.storyboard in Resources */,
 				5F863F2520AF669000BB1E9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

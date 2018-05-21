@@ -10,14 +10,10 @@ import Foundation
 import UIKit
 
 class SignUpPhoneViewController: UIViewController, SignUpPhoneView{
-    static let storyboardName = Storyboard.auth
+    static let storyboardName = Storyboard.signUpPhone
     
     @IBOutlet weak var phoneTF: UITextField!
     @IBOutlet weak var okBTN: UIButton!
-    
-    func cleanUp() {
-        
-    }
     
     func showError() {
         

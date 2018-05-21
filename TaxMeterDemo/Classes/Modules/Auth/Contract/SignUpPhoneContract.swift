@@ -8,14 +8,17 @@
 
 import UIKit
 
-protocol SignUpPhoneWireFrame: class{
-    weak var viewController: UIViewController? {get set}
-    
-    static func assembleModule() -> UIViewController
-}
-
 protocol SignUpPhoneView{
      func showError()
+}
+
+protocol SignUpPhonePresentation {
+    weak var view:SignUpPhoneView? {get set}
+    var interactor: SignUpPhoneInteractorInput! {get set}
+    var router: SignUpPhoneWireFrame! {get set}
+    
+    func viewDidLoad()
+    func didTapNextBTN(withPhone phone:Int)
 }
 
 protocol SignUpPhoneInteractorInput: class{
@@ -25,3 +28,14 @@ protocol SignUpPhoneInteractorInput: class{
 protocol SignUpPhoneInteractorOutput: class{
     func phoneDidChecked(with error:Error?)
 }
+
+protocol SignUpPhoneWireFrame: class{
+    weak var viewController: UIViewController? {get set}
+    
+    func presentSignInSMSCode(forPhone:Int)
+    
+    static func assembleModule() -> UIViewController
+}
+
+
+
