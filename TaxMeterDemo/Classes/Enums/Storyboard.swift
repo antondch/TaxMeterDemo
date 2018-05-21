@@ -7,7 +7,7 @@
 //
 
 enum Storyboard: String {
-    case signUpPhone = "signUpPhone"
+    case signUpPhone = "SignUpPhone"
     
     var filename: String{
         return rawValue
