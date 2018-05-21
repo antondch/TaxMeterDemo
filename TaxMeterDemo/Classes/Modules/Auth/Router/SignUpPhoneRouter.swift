@@ -12,7 +12,7 @@ class SignUpPhoneRouter: SignUpPhoneWireFrame{
     var viewController: UIViewController?
     
     static func assembleModule() -> UIViewController {
-        let view = UIStoryboard(name: SignUpPhoneViewController.storyboardName, bundle: nil).instantiateViewController() as SignUpPhoneViewController
+        let view = UIStoryboard(storyboard: SignUpPhoneViewController.storyboardName).instantiateViewController() as SignUpPhoneViewController
         
         let router = SignUpPhoneRouter()
         router.viewController = view

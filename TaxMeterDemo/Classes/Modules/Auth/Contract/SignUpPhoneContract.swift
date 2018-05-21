@@ -15,6 +15,13 @@ protocol SignUpPhoneWireFrame: class{
 }
 
 protocol SignUpPhoneView{
-    func cleanUp()
-    func showError()
+     func showError()
+}
+
+protocol SignUpPhoneInteractorInput: class{
+    func checkPhone(number:Int)
+}
+
+protocol SignUpPhoneInteractorOutput: class{
+    func phoneDidChecked(with error:Error?)
 }
