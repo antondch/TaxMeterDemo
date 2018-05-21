@@ -14,7 +14,7 @@ protocol AuthWireFrame: class{
     static func assembleModule() -> UIViewController
 }
 
-protocol AuthViewInterface{
+protocol AuthView{
     func cleanUp()
     func showError()
 }

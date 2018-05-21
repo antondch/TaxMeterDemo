@@ -9,12 +9,11 @@
 import Foundation
 import UIKit
 
-class AuthViewController: UIViewController, AuthViewInterface{
+class SignUpPhoneViewController: UIViewController, AuthViewInterface{
     static let storyboardName = Storyboard.auth.filename
     
     @IBOutlet weak var phoneTF: UITextField!
     @IBOutlet weak var okBTN: UIButton!
-    
     
     func cleanUp() {
         
@@ -23,4 +22,5 @@ class AuthViewController: UIViewController, AuthViewInterface{
     func showError() {
         
     }
+    
 }

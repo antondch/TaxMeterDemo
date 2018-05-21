@@ -12,7 +12,7 @@ class AuthRouter: AuthWireFrame{
     var viewController: UIViewController?
     
     static func assembleModule() -> UIViewController {
-        let view = UIStoryboard(name: AuthViewController.storyboardName, bundle: nil).instantiateViewController() as AuthViewController
+        let view = UIStoryboard(name: SignUpPhoneViewController.storyboardName, bundle: nil).instantiateViewController() as SignUpPhoneViewController
         
         let router = AuthRouter()
         router.viewController = view

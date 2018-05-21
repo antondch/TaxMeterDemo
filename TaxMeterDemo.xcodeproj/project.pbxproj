@@ -13,7 +13,7 @@
 		5F863F4220AF7C0900BB1E9E /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4120AF7C0900BB1E9E /* RootRouter.swift */; };
 		5F863F4620AF881500BB1E9E /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4520AF881500BB1E9E /* AuthRouter.swift */; };
 		5F863F4A20AF89A800BB1E9E /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F4920AF89A800BB1E9E /* Auth.storyboard */; };
-		5F863F4E20AF9AD600BB1E9E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4D20AF9AD600BB1E9E /* AuthViewController.swift */; };
+		5F863F4E20AF9AD600BB1E9E /* SignUpPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4D20AF9AD600BB1E9E /* SignUpPhoneViewController.swift */; };
 		5FD5468B20B2F7200071D52F /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5468A20B2F7200071D52F /* RootContract.swift */; };
 		5FD5468E20B2F8490071D52F /* AuthContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5468D20B2F8490071D52F /* AuthContract.swift */; };
 		5FD5469B20B30E630071D52F /* ViewControllerIdentificable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5469A20B30E630071D52F /* ViewControllerIdentificable.swift */; };
@@ -43,7 +43,7 @@
 		5F863F4120AF7C0900BB1E9E /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		5F863F4520AF881500BB1E9E /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
 		5F863F4920AF89A800BB1E9E /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
-		5F863F4D20AF9AD600BB1E9E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		5F863F4D20AF9AD600BB1E9E /* SignUpPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhoneViewController.swift; sourceTree = "<group>"; };
 		5FD5468A20B2F7200071D52F /* RootContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
 		5FD5468D20B2F8490071D52F /* AuthContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContract.swift; sourceTree = "<group>"; };
 		5FD5469A20B30E630071D52F /* ViewControllerIdentificable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIdentificable.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				5F863F4920AF89A800BB1E9E /* Auth.storyboard */,
-				5F863F4D20AF9AD600BB1E9E /* AuthViewController.swift */,
+				5F863F4D20AF9AD600BB1E9E /* SignUpPhoneViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,7 +325,7 @@
 				5F863F1E20AF669000BB1E9E /* AppDelegate.swift in Sources */,
 				5F863F4220AF7C0900BB1E9E /* RootRouter.swift in Sources */,
 				5FD5469B20B30E630071D52F /* ViewControllerIdentificable.swift in Sources */,
-				5F863F4E20AF9AD600BB1E9E /* AuthViewController.swift in Sources */,
+				5F863F4E20AF9AD600BB1E9E /* SignUpPhoneViewController.swift in Sources */,
 				5F863F4620AF881500BB1E9E /* AuthRouter.swift in Sources */,
 				5FD5468E20B2F8490071D52F /* AuthContract.swift in Sources */,
 				5FD546A220B323B20071D52F /* Storyboard.swift in Sources */,
