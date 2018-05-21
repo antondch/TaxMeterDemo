@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F27606520B337CE001C122D /* SignUpPhoneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27606420B337CE001C122D /* SignUpPhoneInteractor.swift */; };
+		5F27607A20B35875001C122D /* TaxMeterDemoFWK.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F27607820B35875001C122D /* TaxMeterDemoFWK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F2760A020B38045001C122D /* CheckPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609920B38044001C122D /* CheckPhone.swift */; };
+		5F2760A120B38045001C122D /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609A20B38044001C122D /* UserResponse.swift */; };
+		5F2760A220B38045001C122D /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609B20B38044001C122D /* APIRequest.swift */; };
+		5F2760A320B38045001C122D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609C20B38044001C122D /* Result.swift */; };
+		5F2760A520B38045001C122D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609E20B38045001C122D /* APIClient.swift */; };
+		5F2760A620B38045001C122D /* TaxMeterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609F20B38045001C122D /* TaxMeterAPIClient.swift */; };
+		5F2760AA20B38C2F001C122D /* TaxMeterAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2760A920B38C2F001C122D /* TaxMeterAPIError.swift */; };
 		5F863F1E20AF669000BB1E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F1D20AF669000BB1E9E /* AppDelegate.swift */; };
 		5F863F2520AF669000BB1E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F2420AF669000BB1E9E /* Assets.xcassets */; };
 		5F863F3320AF669000BB1E9E /* TaxMeterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */; };
@@ -33,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F27606420B337CE001C122D /* SignUpPhoneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhoneInteractor.swift; sourceTree = "<group>"; };
+		5F27607620B35875001C122D /* TaxMeterDemoFWK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TaxMeterDemoFWK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F27607820B35875001C122D /* TaxMeterDemoFWK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaxMeterDemoFWK.h; sourceTree = "<group>"; };
+		5F27607920B35875001C122D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F27609920B38044001C122D /* CheckPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckPhone.swift; sourceTree = "<group>"; };
+		5F27609A20B38044001C122D /* UserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		5F27609B20B38044001C122D /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		5F27609C20B38044001C122D /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5F27609E20B38045001C122D /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5F27609F20B38045001C122D /* TaxMeterAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxMeterAPIClient.swift; sourceTree = "<group>"; };
+		5F2760A920B38C2F001C122D /* TaxMeterAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxMeterAPIError.swift; sourceTree = "<group>"; };
 		5F863F1A20AF669000BB1E9E /* TaxMeterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxMeterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F863F1D20AF669000BB1E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F863F2420AF669000BB1E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +73,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5F27607220B35875001C122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F863F1720AF669000BB1E9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,11 +97,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F27606320B337A6001C122D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5F27606420B337CE001C122D /* SignUpPhoneInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5F27606620B33A4D001C122D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5F2760AB20B38C66001C122D /* New Group */,
+				5F2760A820B38BED001C122D /* Responses */,
+				5F2760A720B38AA0001C122D /* Requests */,
+				5F27609E20B38045001C122D /* APIClient.swift */,
+				5F27609F20B38045001C122D /* TaxMeterAPIClient.swift */,
+				5F27609C20B38044001C122D /* Result.swift */,
+				5F2760A920B38C2F001C122D /* TaxMeterAPIError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5F27607720B35875001C122D /* TaxMeterDemoFWK */ = {
+			isa = PBXGroup;
+			children = (
+				5F27607820B35875001C122D /* TaxMeterDemoFWK.h */,
+				5F27607920B35875001C122D /* Info.plist */,
+			);
+			path = TaxMeterDemoFWK;
+			sourceTree = "<group>";
+		};
+		5F2760A720B38AA0001C122D /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				5F27609B20B38044001C122D /* APIRequest.swift */,
+				5F27609920B38044001C122D /* CheckPhone.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		5F2760A820B38BED001C122D /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				5F27609A20B38044001C122D /* UserResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		5F2760AB20B38C66001C122D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		5F863F1120AF669000BB1E9E = {
 			isa = PBXGroup;
 			children = (
 				5F863F1C20AF669000BB1E9E /* TaxMeterDemo */,
 				5F863F3120AF669000BB1E9E /* TaxMeterDemoTests */,
+				5F27607720B35875001C122D /* TaxMeterDemoFWK */,
 				5F863F1B20AF669000BB1E9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +167,7 @@
 			children = (
 				5F863F1A20AF669000BB1E9E /* TaxMeterDemo.app */,
 				5F863F2E20AF669000BB1E9E /* TaxMeterDemoTests.xctest */,
+				5F27607620B35875001C122D /* TaxMeterDemoFWK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,19 +195,20 @@
 			isa = PBXGroup;
 			children = (
 				5FD5468920B2F66C0071D52F /* Root */,
-				5F863F4420AF87F200BB1E9E /* Auth */,
+				5F863F4420AF87F200BB1E9E /* SingUpPhone */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		5F863F4420AF87F200BB1E9E /* Auth */ = {
+		5F863F4420AF87F200BB1E9E /* SingUpPhone */ = {
 			isa = PBXGroup;
 			children = (
+				5F27606320B337A6001C122D /* Interactor */,
 				5FD5468C20B2F8350071D52F /* Contract */,
 				5F863F4F20AF9AE600BB1E9E /* Router */,
 				5F863F4C20AF9AB200BB1E9E /* View */,
 			);
-			path = Auth;
+			path = SingUpPhone;
 			sourceTree = "<group>";
 		};
 		5F863F4720AF891C00BB1E9E /* resources */ = {
@@ -162,10 +247,11 @@
 		5FD5468620B21DDB0071D52F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5FD546A020B3239C0071D52F /* Enums */,
+				5F27606620B33A4D001C122D /* Network */,
 				5FD5469920B2FE5A0071D52F /* Application */,
-				5FD5469220B2FA480071D52F /* Contracts */,
 				5FD5468F20B2F9FC0071D52F /* Extensions */,
+				5FD546A020B3239C0071D52F /* Enums */,
+				5FD5469220B2FA480071D52F /* Contracts */,
 				5F863F4320AF87DF00BB1E9E /* Modules */,
 			);
 			path = Classes;
@@ -223,7 +309,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5F27607320B35875001C122D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F27607A20B35875001C122D /* TaxMeterDemoFWK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		5F27607520B35875001C122D /* TaxMeterDemoFWK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F27607D20B35875001C122D /* Build configuration list for PBXNativeTarget "TaxMeterDemoFWK" */;
+			buildPhases = (
+				5F27607120B35875001C122D /* Sources */,
+				5F27607220B35875001C122D /* Frameworks */,
+				5F27607320B35875001C122D /* Headers */,
+				5F27607420B35875001C122D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxMeterDemoFWK;
+			productName = TaxMeterDemoFWK;
+			productReference = 5F27607620B35875001C122D /* TaxMeterDemoFWK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5F863F1920AF669000BB1E9E /* TaxMeterDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F863F3720AF669000BB1E9E /* Build configuration list for PBXNativeTarget "TaxMeterDemo" */;
@@ -269,6 +384,10 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = dch;
 				TargetAttributes = {
+					5F27607520B35875001C122D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 					5F863F1920AF669000BB1E9E = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -294,11 +413,19 @@
 			targets = (
 				5F863F1920AF669000BB1E9E /* TaxMeterDemo */,
 				5F863F2D20AF669000BB1E9E /* TaxMeterDemoTests */,
+				5F27607520B35875001C122D /* TaxMeterDemoFWK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5F27607420B35875001C122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F863F1820AF669000BB1E9E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,16 +445,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5F27607120B35875001C122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F863F1620AF669000BB1E9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2760A220B38045001C122D /* APIRequest.swift in Sources */,
 				5F863F1E20AF669000BB1E9E /* AppDelegate.swift in Sources */,
+				5F2760A620B38045001C122D /* TaxMeterAPIClient.swift in Sources */,
 				5F863F4220AF7C0900BB1E9E /* RootRouter.swift in Sources */,
+				5F2760A020B38045001C122D /* CheckPhone.swift in Sources */,
+				5F2760A520B38045001C122D /* APIClient.swift in Sources */,
+				5F2760A320B38045001C122D /* Result.swift in Sources */,
+				5F27606520B337CE001C122D /* SignUpPhoneInteractor.swift in Sources */,
+				5F2760AA20B38C2F001C122D /* TaxMeterAPIError.swift in Sources */,
 				5FD5469B20B30E630071D52F /* ViewControllerIdentificable.swift in Sources */,
 				5F863F4E20AF9AD600BB1E9E /* SignUpPhoneViewController.swift in Sources */,
 				5F863F4620AF881500BB1E9E /* SignUpPhoneRouter.swift in Sources */,
 				5FD5468E20B2F8490071D52F /* SignUpPhoneContract.swift in Sources */,
+				5F2760A120B38045001C122D /* UserResponse.swift in Sources */,
 				5FD546A220B323B20071D52F /* Storyboard.swift in Sources */,
 				5FD5469D20B30E830071D52F /* Identificable.swift in Sources */,
 				5FD5469F20B311550071D52F /* UIStoryboardIdentificable.swift in Sources */,
@@ -354,6 +496,54 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		5F27607B20B35875001C122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C982X5N552;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TaxMeterDemoFWK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dch.TaxMeterDemoFWK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F27607C20B35875001C122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C982X5N552;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TaxMeterDemoFWK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dch.TaxMeterDemoFWK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5F863F3520AF669000BB1E9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -528,6 +718,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5F27607D20B35875001C122D /* Build configuration list for PBXNativeTarget "TaxMeterDemoFWK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F27607B20B35875001C122D /* Debug */,
+				5F27607C20B35875001C122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5F863F1520AF669000BB1E9E /* Build configuration list for PBXProject "TaxMeterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

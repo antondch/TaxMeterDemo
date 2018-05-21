@@ -9,6 +9,7 @@
 import UIKit
 
 class SignUpPhoneRouter: SignUpPhoneWireFrame{
+    
     var viewController: UIViewController?
     
     static func assembleModule() -> UIViewController {
@@ -20,6 +21,10 @@ class SignUpPhoneRouter: SignUpPhoneWireFrame{
         let navController = UINavigationController(rootViewController: view)
         
         return navController
+    }
+    
+    func presentSignInSMSCode(forPhone: Int) {
+        //do nothing
     }
 }
 

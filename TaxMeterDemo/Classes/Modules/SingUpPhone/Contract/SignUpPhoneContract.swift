@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol SignUpPhoneView{
+protocol SignUpPhoneView: class{
      func showError()
 }
 
