@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5F863F1E20AF669000BB1E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F1D20AF669000BB1E9E /* AppDelegate.swift */; };
 		5F863F2520AF669000BB1E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F2420AF669000BB1E9E /* Assets.xcassets */; };
-		5F863F2820AF669000BB1E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F2620AF669000BB1E9E /* LaunchScreen.storyboard */; };
 		5F863F3320AF669000BB1E9E /* TaxMeterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */; };
 		5F863F4220AF7C0900BB1E9E /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4120AF7C0900BB1E9E /* RootRouter.swift */; };
 		5F863F4620AF881500BB1E9E /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4520AF881500BB1E9E /* AuthRouter.swift */; };
@@ -36,7 +35,6 @@
 		5F863F1A20AF669000BB1E9E /* TaxMeterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxMeterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F863F1D20AF669000BB1E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F863F2420AF669000BB1E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F863F2720AF669000BB1E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F863F2920AF669000BB1E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F863F2E20AF669000BB1E9E /* TaxMeterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxMeterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxMeterDemoTests.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				5FD5468520B21DAB0071D52F /* Supporting Files */,
-				5F863F2620AF669000BB1E9E /* LaunchScreen.storyboard */,
 				5F863F2420AF669000BB1E9E /* Assets.xcassets */,
 			);
 			path = resources;
@@ -278,7 +275,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 5F863F1120AF669000BB1E9E;
 			productRefGroup = 5F863F1B20AF669000BB1E9E /* Products */;
@@ -297,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F863F4A20AF89A800BB1E9E /* Auth.storyboard in Resources */,
-				5F863F2820AF669000BB1E9E /* LaunchScreen.storyboard in Resources */,
 				5F863F2520AF669000BB1E9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,17 +340,6 @@
 			targetProxy = 5F863F2F20AF669000BB1E9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5F863F2620AF669000BB1E9E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F863F2720AF669000BB1E9E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F863F3520AF669000BB1E9E /* Debug */ = {
