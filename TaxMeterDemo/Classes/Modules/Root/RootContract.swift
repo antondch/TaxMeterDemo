@@ -9,5 +9,5 @@
 import UIKit
 
 protocol RootWireFrame: class{
-    func presentAuthScreen(in window: UIWindow)
+    func presentSignUpPhoneScreen(in window: UIWindow)
 }

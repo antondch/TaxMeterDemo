@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SignUpPhoneViewController: UIViewController, AuthViewInterface{
+class SignUpPhoneViewController: UIViewController, SignUpPhoneView{
     static let storyboardName = Storyboard.auth.filename
     
     @IBOutlet weak var phoneTF: UITextField!

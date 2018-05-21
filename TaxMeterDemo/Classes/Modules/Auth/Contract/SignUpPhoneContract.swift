@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol AuthWireFrame: class{
+protocol SignUpPhoneWireFrame: class{
     weak var viewController: UIViewController? {get set}
     
     static func assembleModule() -> UIViewController
 }
 
-protocol AuthView{
+protocol SignUpPhoneView{
     func cleanUp()
     func showError()
 }

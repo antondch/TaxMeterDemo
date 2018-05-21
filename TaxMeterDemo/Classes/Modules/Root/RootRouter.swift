@@ -9,8 +9,8 @@
 import UIKit
 
 class RootRouter: RootWireFrame{
-    func presentAuthScreen(in window: UIWindow) {
+    func presentSignUpPhoneScreen(in window: UIWindow) {
         window.makeKeyAndVisible()
-        window.rootViewController = AuthRouter.assembleModule()
+        window.rootViewController = SignUpPhoneRouter.assembleModule()
     }
 }
