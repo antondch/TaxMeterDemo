@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5F863F1E20AF669000BB1E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F1D20AF669000BB1E9E /* AppDelegate.swift */; };
-		5F863F2020AF669000BB1E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F1F20AF669000BB1E9E /* ViewController.swift */; };
-		5F863F2320AF669000BB1E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F2120AF669000BB1E9E /* Main.storyboard */; };
 		5F863F2520AF669000BB1E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F2420AF669000BB1E9E /* Assets.xcassets */; };
 		5F863F2820AF669000BB1E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F2620AF669000BB1E9E /* LaunchScreen.storyboard */; };
 		5F863F3320AF669000BB1E9E /* TaxMeterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */; };
+		5F863F4220AF7C0900BB1E9E /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4120AF7C0900BB1E9E /* RootRouter.swift */; };
+		5F863F4620AF881500BB1E9E /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4520AF881500BB1E9E /* AuthRouter.swift */; };
+		5F863F4A20AF89A800BB1E9E /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F4920AF89A800BB1E9E /* Auth.storyboard */; };
+		5F863F4E20AF9AD600BB1E9E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F4D20AF9AD600BB1E9E /* AuthViewController.swift */; };
+		5FD5468B20B2F7200071D52F /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5468A20B2F7200071D52F /* RootContract.swift */; };
+		5FD5468E20B2F8490071D52F /* AuthContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5468D20B2F8490071D52F /* AuthContract.swift */; };
+		5FD5469B20B30E630071D52F /* ViewControllerIdentificable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5469A20B30E630071D52F /* ViewControllerIdentificable.swift */; };
+		5FD5469D20B30E830071D52F /* Identificable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5469C20B30E830071D52F /* Identificable.swift */; };
+		5FD5469F20B311550071D52F /* UIStoryboardIdentificable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5469E20B311550071D52F /* UIStoryboardIdentificable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +35,21 @@
 /* Begin PBXFileReference section */
 		5F863F1A20AF669000BB1E9E /* TaxMeterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxMeterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F863F1D20AF669000BB1E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F863F1F20AF669000BB1E9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F863F2220AF669000BB1E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F863F2420AF669000BB1E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F863F2720AF669000BB1E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F863F2920AF669000BB1E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F863F2E20AF669000BB1E9E /* TaxMeterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxMeterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxMeterDemoTests.swift; sourceTree = "<group>"; };
 		5F863F3420AF669000BB1E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F863F4120AF7C0900BB1E9E /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		5F863F4520AF881500BB1E9E /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		5F863F4920AF89A800BB1E9E /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		5F863F4D20AF9AD600BB1E9E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		5FD5468A20B2F7200071D52F /* RootContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
+		5FD5468D20B2F8490071D52F /* AuthContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContract.swift; sourceTree = "<group>"; };
+		5FD5469A20B30E630071D52F /* ViewControllerIdentificable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIdentificable.swift; sourceTree = "<group>"; };
+		5FD5469C20B30E830071D52F /* Identificable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identificable.swift; sourceTree = "<group>"; };
+		5FD5469E20B311550071D52F /* UIStoryboardIdentificable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardIdentificable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +91,9 @@
 		5F863F1C20AF669000BB1E9E /* TaxMeterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5F863F1D20AF669000BB1E9E /* AppDelegate.swift */,
-				5F863F1F20AF669000BB1E9E /* ViewController.swift */,
-				5F863F2120AF669000BB1E9E /* Main.storyboard */,
-				5F863F2420AF669000BB1E9E /* Assets.xcassets */,
-				5F863F2620AF669000BB1E9E /* LaunchScreen.storyboard */,
 				5F863F2920AF669000BB1E9E /* Info.plist */,
+				5FD5468620B21DDB0071D52F /* Classes */,
+				5F863F4720AF891C00BB1E9E /* resources */,
 			);
 			path = TaxMeterDemo;
 			sourceTree = "<group>";
@@ -90,10 +101,116 @@
 		5F863F3120AF669000BB1E9E /* TaxMeterDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */,
 				5F863F3420AF669000BB1E9E /* Info.plist */,
+				5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */,
 			);
 			path = TaxMeterDemoTests;
+			sourceTree = "<group>";
+		};
+		5F863F4320AF87DF00BB1E9E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5FD5468920B2F66C0071D52F /* Root */,
+				5F863F4420AF87F200BB1E9E /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5F863F4420AF87F200BB1E9E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				5FD5468C20B2F8350071D52F /* Contract */,
+				5F863F4F20AF9AE600BB1E9E /* Router */,
+				5F863F4C20AF9AB200BB1E9E /* View */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		5F863F4720AF891C00BB1E9E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FD5468520B21DAB0071D52F /* Supporting Files */,
+				5F863F2620AF669000BB1E9E /* LaunchScreen.storyboard */,
+				5F863F2420AF669000BB1E9E /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		5F863F4C20AF9AB200BB1E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F863F4920AF89A800BB1E9E /* Auth.storyboard */,
+				5F863F4D20AF9AD600BB1E9E /* AuthViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F863F4F20AF9AE600BB1E9E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5F863F4520AF881500BB1E9E /* AuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5FD5468520B21DAB0071D52F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD5468620B21DDB0071D52F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5FD5469920B2FE5A0071D52F /* Application */,
+				5FD5469220B2FA480071D52F /* Contracts */,
+				5FD5468F20B2F9FC0071D52F /* Extensions */,
+				5F863F4320AF87DF00BB1E9E /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5FD5468920B2F66C0071D52F /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5FD5468A20B2F7200071D52F /* RootContract.swift */,
+				5F863F4120AF7C0900BB1E9E /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5FD5468C20B2F8350071D52F /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				5FD5468D20B2F8490071D52F /* AuthContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		5FD5468F20B2F9FC0071D52F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5FD5469A20B30E630071D52F /* ViewControllerIdentificable.swift */,
+				5FD5469E20B311550071D52F /* UIStoryboardIdentificable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5FD5469220B2FA480071D52F /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				5FD5469C20B30E830071D52F /* Identificable.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		5FD5469920B2FE5A0071D52F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5F863F1D20AF669000BB1E9E /* AppDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F863F4A20AF89A800BB1E9E /* Auth.storyboard in Resources */,
 				5F863F2820AF669000BB1E9E /* LaunchScreen.storyboard in Resources */,
 				5F863F2520AF669000BB1E9E /* Assets.xcassets in Resources */,
-				5F863F2320AF669000BB1E9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F863F2020AF669000BB1E9E /* ViewController.swift in Sources */,
 				5F863F1E20AF669000BB1E9E /* AppDelegate.swift in Sources */,
+				5F863F4220AF7C0900BB1E9E /* RootRouter.swift in Sources */,
+				5FD5469B20B30E630071D52F /* ViewControllerIdentificable.swift in Sources */,
+				5F863F4E20AF9AD600BB1E9E /* AuthViewController.swift in Sources */,
+				5F863F4620AF881500BB1E9E /* AuthRouter.swift in Sources */,
+				5FD5468E20B2F8490071D52F /* AuthContract.swift in Sources */,
+				5FD5469D20B30E830071D52F /* Identificable.swift in Sources */,
+				5FD5469F20B311550071D52F /* UIStoryboardIdentificable.swift in Sources */,
+				5FD5468B20B2F7200071D52F /* RootContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5F863F2120AF669000BB1E9E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F863F2220AF669000BB1E9E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F863F2620AF669000BB1E9E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
