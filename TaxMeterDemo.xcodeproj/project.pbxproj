@@ -19,6 +19,7 @@
 		5FD5469B20B30E630071D52F /* ViewControllerIdentificable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5469A20B30E630071D52F /* ViewControllerIdentificable.swift */; };
 		5FD5469D20B30E830071D52F /* Identificable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5469C20B30E830071D52F /* Identificable.swift */; };
 		5FD5469F20B311550071D52F /* UIStoryboardIdentificable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5469E20B311550071D52F /* UIStoryboardIdentificable.swift */; };
+		5FD546A220B323B20071D52F /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD546A120B323B20071D52F /* Storyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5FD5469A20B30E630071D52F /* ViewControllerIdentificable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIdentificable.swift; sourceTree = "<group>"; };
 		5FD5469C20B30E830071D52F /* Identificable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identificable.swift; sourceTree = "<group>"; };
 		5FD5469E20B311550071D52F /* UIStoryboardIdentificable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardIdentificable.swift; sourceTree = "<group>"; };
+		5FD546A120B323B20071D52F /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		5FD5468620B21DDB0071D52F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5FD546A020B3239C0071D52F /* Enums */,
 				5FD5469920B2FE5A0071D52F /* Application */,
 				5FD5469220B2FA480071D52F /* Contracts */,
 				5FD5468F20B2F9FC0071D52F /* Extensions */,
@@ -208,6 +211,14 @@
 				5F863F1D20AF669000BB1E9E /* AppDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		5FD546A020B3239C0071D52F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5FD546A120B323B20071D52F /* Storyboard.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +328,7 @@
 				5F863F4E20AF9AD600BB1E9E /* AuthViewController.swift in Sources */,
 				5F863F4620AF881500BB1E9E /* AuthRouter.swift in Sources */,
 				5FD5468E20B2F8490071D52F /* AuthContract.swift in Sources */,
+				5FD546A220B323B20071D52F /* Storyboard.swift in Sources */,
 				5FD5469D20B30E830071D52F /* Identificable.swift in Sources */,
 				5FD5469F20B311550071D52F /* UIStoryboardIdentificable.swift in Sources */,
 				5FD5468B20B2F7200071D52F /* RootContract.swift in Sources */,
