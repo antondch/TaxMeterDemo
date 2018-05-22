@@ -24,18 +24,15 @@ class SignUpPhoneInteractor: SignUpPhoneInteractorInput {
     
     func checkPhone(number: Int) {
         let request = CheckPhone(phone: number)
-        apiClient.send(request) { [weak self] (result) in
-            guard let sSelf = self else{
-                return
-            }
+        apiClient.send(request) { (result) in
             print(result)
             switch (result){
             case .success(let userData):
                 print(userData)
-                sSelf.output?.phoneDidChecked(with: nil)
+                self.output?.phoneDidChecked(with: nil)
             case .failure(let error):
                 print(error)
-                sSelf.output?.phoneDidChecked(with: error)
+                self.output?.phoneDidChecked(with: error)
             }
         }
     }
