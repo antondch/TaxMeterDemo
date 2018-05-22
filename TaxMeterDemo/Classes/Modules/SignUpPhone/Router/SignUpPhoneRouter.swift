@@ -16,7 +16,7 @@ class SignUpPhoneRouter: SignUpPhoneWireFrame{
         let view = UIStoryboard(storyboard: SignUpPhoneViewController.storyboardName).instantiateViewController() as SignUpPhoneViewController
         let router = SignUpPhoneRouter()
         let presenter = SignUpPhonePresenter()
-        let interactor = SignUpPhoneInteractor()
+        let interactor = SignUpPhoneInteractor(with: TaxMeterAPIClient())
         
         let navController = UINavigationController(rootViewController: view)
         

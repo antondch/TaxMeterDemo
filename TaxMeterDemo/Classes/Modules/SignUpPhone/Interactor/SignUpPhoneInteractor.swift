@@ -13,10 +13,14 @@ import Foundation
 class SignUpPhoneInteractor: SignUpPhoneInteractorInput {
     weak var output: SignUpPhoneInteractorOutput?
     
-    let apiClient = TaxMeterAPIClient()
+    let apiClient: APIClient!
 //    convenience init(output:SignUpPhoneInteractorOutput, apiClient: APIClient){
 //        
 //    }
+    
+    init(with apiClient:APIClient){
+        self.apiClient = apiClient
+    }
     
     func checkPhone(number: Int) {
         let request = CheckPhone(phone: number)
