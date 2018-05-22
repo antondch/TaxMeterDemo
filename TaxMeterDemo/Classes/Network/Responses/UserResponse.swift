@@ -17,6 +17,6 @@ struct Info :Decodable{
 }
 
 struct UsersResponse: Decodable{
-    let accsessToken:AccessToken?
+    let accesstoken:AccessToken?
     let info: Info?
 }

@@ -24,6 +24,9 @@
                                 <state key="normal" title="Ok">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextBTNDidTaped:" destination="bO8-aA-LZY" eventType="touchUpInside" id="WKJ-QN-HZv"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="+7" borderStyle="line" placeholder="+7" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RPv-tn-J1O">
                                 <rect key="frame" x="15" y="170" width="345" height="28"/>
@@ -44,7 +47,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="TnN-SY-w4S"/>
                     <connections>
-                        <outlet property="okBTN" destination="VDJ-I2-hg6" id="oDS-Qp-GbR"/>
+                        <outlet property="okBTN" destination="VDJ-I2-hg6" id="P61-Py-wTc"/>
                         <outlet property="phoneTF" destination="RPv-tn-J1O" id="y7q-n6-m8B"/>
                     </connections>
                 </viewController>

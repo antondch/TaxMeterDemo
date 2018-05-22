@@ -8,15 +8,15 @@
 
 struct CheckPhone: APIRequest {
     var resourceName: String{
-        return "POST-api-Users"
+        return "api/Users"
     }
     
     typealias Response = UsersResponse
     
-    let phone:Int
+    let phone:String 
     
     init(phone:Int) {
-        self.phone = phone
+        self.phone = String(phone)
     }
 }
 

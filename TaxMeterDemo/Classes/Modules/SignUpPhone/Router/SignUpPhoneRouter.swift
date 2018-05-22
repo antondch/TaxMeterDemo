@@ -10,15 +10,25 @@ import UIKit
 
 class SignUpPhoneRouter: SignUpPhoneWireFrame{
     
-    var viewController: UIViewController?
+    weak var viewController: UIViewController?
     
     static func assembleModule() -> UIViewController {
         let view = UIStoryboard(storyboard: SignUpPhoneViewController.storyboardName).instantiateViewController() as SignUpPhoneViewController
-        
         let router = SignUpPhoneRouter()
-        router.viewController = view
+        let presenter = SignUpPhonePresenter()
+        let interactor = SignUpPhoneInteractor()
         
         let navController = UINavigationController(rootViewController: view)
+        
+        view.presenter = presenter
+        
+        presenter.view = view
+        presenter.router = router
+        presenter.interactor = interactor
+        
+        interactor.output = presenter
+        
+        router.viewController = view
         
         return navController
     }

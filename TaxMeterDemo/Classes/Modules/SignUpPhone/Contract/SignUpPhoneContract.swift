@@ -22,6 +22,7 @@ protocol SignUpPhonePresentation {
 }
 
 protocol SignUpPhoneInteractorInput: class{
+    weak var output: SignUpPhoneInteractorOutput? {get set}
     func checkPhone(number:Int)
 }
 

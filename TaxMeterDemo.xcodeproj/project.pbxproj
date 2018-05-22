@@ -15,6 +15,7 @@
 		5F2760A520B38045001C122D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609E20B38045001C122D /* APIClient.swift */; };
 		5F2760A620B38045001C122D /* TaxMeterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27609F20B38045001C122D /* TaxMeterAPIClient.swift */; };
 		5F2760AA20B38C2F001C122D /* TaxMeterAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2760A920B38C2F001C122D /* TaxMeterAPIError.swift */; };
+		5F2760B020B391B7001C122D /* SignUpPhonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2760AF20B391B7001C122D /* SignUpPhonePresenter.swift */; };
 		5F863F1E20AF669000BB1E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F1D20AF669000BB1E9E /* AppDelegate.swift */; };
 		5F863F2520AF669000BB1E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F863F2420AF669000BB1E9E /* Assets.xcassets */; };
 		5F863F3320AF669000BB1E9E /* TaxMeterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F863F3220AF669000BB1E9E /* TaxMeterDemoTests.swift */; };
@@ -51,6 +52,7 @@
 		5F27609E20B38045001C122D /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		5F27609F20B38045001C122D /* TaxMeterAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxMeterAPIClient.swift; sourceTree = "<group>"; };
 		5F2760A920B38C2F001C122D /* TaxMeterAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxMeterAPIError.swift; sourceTree = "<group>"; };
+		5F2760AF20B391B7001C122D /* SignUpPhonePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhonePresenter.swift; sourceTree = "<group>"; };
 		5F863F1A20AF669000BB1E9E /* TaxMeterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxMeterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F863F1D20AF669000BB1E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F863F2420AF669000BB1E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		5F2760AE20B39190001C122D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5F2760AF20B391B7001C122D /* SignUpPhonePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		5F863F1120AF669000BB1E9E = {
 			isa = PBXGroup;
 			children = (
@@ -185,20 +195,21 @@
 			isa = PBXGroup;
 			children = (
 				5FD5468920B2F66C0071D52F /* Root */,
-				5F863F4420AF87F200BB1E9E /* SingUpPhone */,
+				5F863F4420AF87F200BB1E9E /* SignUpPhone */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		5F863F4420AF87F200BB1E9E /* SingUpPhone */ = {
+		5F863F4420AF87F200BB1E9E /* SignUpPhone */ = {
 			isa = PBXGroup;
 			children = (
+				5F2760AE20B39190001C122D /* Presenter */,
 				5F27606320B337A6001C122D /* Interactor */,
 				5FD5468C20B2F8350071D52F /* Contract */,
 				5F863F4F20AF9AE600BB1E9E /* Router */,
 				5F863F4C20AF9AB200BB1E9E /* View */,
 			);
-			path = SingUpPhone;
+			path = SignUpPhone;
 			sourceTree = "<group>";
 		};
 		5F863F4720AF891C00BB1E9E /* resources */ = {
@@ -411,6 +422,7 @@
 				5F863F4E20AF9AD600BB1E9E /* SignUpPhoneViewController.swift in Sources */,
 				5F863F4620AF881500BB1E9E /* SignUpPhoneRouter.swift in Sources */,
 				5FD5468E20B2F8490071D52F /* SignUpPhoneContract.swift in Sources */,
+				5F2760B020B391B7001C122D /* SignUpPhonePresenter.swift in Sources */,
 				5F2760A120B38045001C122D /* UserResponse.swift in Sources */,
 				5FD546A220B323B20071D52F /* Storyboard.swift in Sources */,
 				5FD5469D20B30E830071D52F /* Identificable.swift in Sources */,

@@ -8,12 +8,12 @@
 
 import Foundation
 class TaxMeterAPIClient: APIClient {
-    private static let baseUrl = "https://apps.startcasco.ru/Help/Api/"
+    private let baseUrl = "https://apps.startcasco.ru/"
     
     func send<T:APIRequest>(_ request: T, completion: @escaping ResultCallback<T.Response>){
         
-        guard let url = URL(string: "\(baseUrl)\(T.resourceName)") else{
-            fatalError("cannot create url from string")
+        guard let url = URL(string: "\(baseUrl)\(request.resourceName)") else{
+            fatalError("cannot create url from string \(baseUrl)\(request.resourceName)")
         }
         
         var urlRequest = URLRequest(url: url)
@@ -28,14 +28,14 @@ class TaxMeterAPIClient: APIClient {
             if let data = data{
                 do{
                     let taxMeterResponse = try JSONDecoder().decode(T.Response.self, from: data)
-                    
-                    if 
-                    
                     completion(.success(taxMeterResponse))
                     
-                }catch{
-                    completion(.failure(error))
+                }catch let decodeError{
+                    print(decodeError)
+                    completion(.failure(TaxMeterAPIError.decoding))
                 }
+            }else if let error = error{
+                completion(.failure(error))
             }
         }
         
